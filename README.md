@@ -84,10 +84,10 @@ pod 'M80TableViewComponent'
 # 主要类预览
 |   类      | 概述 |
 ----------|-----------------
-M80TableViewComponent | TableView 组件，可持有 0 至 n 个 M80TableViewSectionComponent
-M80TableViewSectionComponent | Section 组件，对应 UITableView Section，可持有 0 至 n 个 M80TableViewCellComponent 
+M80TableViewComponent | TableView 组件，持有多个 M80TableViewSectionComponent
+M80TableViewSectionComponent | Section 组件，持有多个 M80TableViewCellComponent 
 M80TableViewCellComponent | Cell 组件，与 UITableViewCell 一一对应
-M80TableViewViewComponent | View 组件，对应每个 Section 的 UITableViewFooter 和 UITableViewHeader
+M80TableViewViewComponent | View 组件
 M80TableViewComponentContext | TableView 组件上下文信息
 
 

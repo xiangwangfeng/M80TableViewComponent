@@ -1,0 +1,6 @@
+framework module M80TableViewComponent {
+  umbrella header "M80TableViewComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

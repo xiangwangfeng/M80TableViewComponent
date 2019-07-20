@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'M80TableViewComponent_Example' do
+  pod 'M80TableViewComponent', :path => '../'
+  pod 'YYWebImage'
+  pod 'YYImage/WebP'
+end

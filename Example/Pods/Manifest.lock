@@ -1,0 +1,36 @@
+PODS:
+  - M80TableViewComponent (0.1.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - M80TableViewComponent (from `../`)
+  - YYImage/WebP
+  - YYWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  M80TableViewComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  M80TableViewComponent: a4f1f20ad627402c5f42240571938e7c40e8c2f4
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 6ec8e04d0486f6bea84e18b453c99e60e62137a4
+
+COCOAPODS: 1.6.0

@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36201946B5A1347157570D94 /* Pods_M80TableViewComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87233E91C3B55E6130805283 /* Pods_M80TableViewComponent_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* M80AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* M80AppDelegate.m */; };
+		6003F5A7195388D20070C39A /* M80ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* M80ViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		86C3661E22E30E3100BB04CB /* M80ListDiffCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365E722E30E3100BB04CB /* M80ListDiffCellComponent.m */; };
+		86C3661F22E30E3100BB04CB /* M80ListDiffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365E822E30E3100BB04CB /* M80ListDiffViewController.m */; };
+		86C3662022E30E3100BB04CB /* M80FeedSectionComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365EB22E30E3100BB04CB /* M80FeedSectionComponent.m */; };
+		86C3662122E30E3100BB04CB /* M80FeedAvatarCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365EC22E30E3100BB04CB /* M80FeedAvatarCellComponent.m */; };
+		86C3662222E30E3100BB04CB /* M80FeedPaddingCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365ED22E30E3100BB04CB /* M80FeedPaddingCellComponent.m */; };
+		86C3662322E30E3100BB04CB /* M80FeedBaseCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365F022E30E3100BB04CB /* M80FeedBaseCellComponent.m */; };
+		86C3662422E30E3100BB04CB /* M80FeedToolbarCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365F122E30E3100BB04CB /* M80FeedToolbarCellComponent.m */; };
+		86C3662522E30E3100BB04CB /* M80FeedImageCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365F522E30E3100BB04CB /* M80FeedImageCellComponent.m */; };
+		86C3662622E30E3100BB04CB /* M80FeedTextCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365F622E30E3100BB04CB /* M80FeedTextCellComponent.m */; };
+		86C3662722E30E3100BB04CB /* M80FeedImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365FA22E30E3100BB04CB /* M80FeedImageCell.m */; };
+		86C3662822E30E3100BB04CB /* M80FeedAvatarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C365FB22E30E3100BB04CB /* M80FeedAvatarCell.xib */; };
+		86C3662922E30E3100BB04CB /* M80FeedAvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C365FE22E30E3100BB04CB /* M80FeedAvatarCell.m */; };
+		86C3662A22E30E3100BB04CB /* M80FeedToolbarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3660022E30E3100BB04CB /* M80FeedToolbarViewCell.m */; };
+		86C3662B22E30E3100BB04CB /* M80FeedToolbarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660122E30E3100BB04CB /* M80FeedToolbarViewCell.xib */; };
+		86C3662C22E30E3100BB04CB /* M80FeedTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3660322E30E3100BB04CB /* M80FeedTextCell.m */; };
+		86C3662D22E30E3100BB04CB /* M80Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3660522E30E3100BB04CB /* M80Feed.m */; };
+		86C3662E22E30E3100BB04CB /* M80FeedMocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3660622E30E3100BB04CB /* M80FeedMocker.m */; };
+		86C3662F22E30E3100BB04CB /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660A22E30E3100BB04CB /* weibo_3.json */; };
+		86C3663022E30E3100BB04CB /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660B22E30E3100BB04CB /* weibo_2.json */; };
+		86C3663122E30E3100BB04CB /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660C22E30E3100BB04CB /* weibo_5.json */; };
+		86C3663222E30E3100BB04CB /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660D22E30E3100BB04CB /* weibo_4.json */; };
+		86C3663322E30E3100BB04CB /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660E22E30E3100BB04CB /* weibo_7.json */; };
+		86C3663422E30E3100BB04CB /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3660F22E30E3100BB04CB /* weibo_6.json */; };
+		86C3663522E30E3100BB04CB /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3661022E30E3100BB04CB /* weibo_1.json */; };
+		86C3663622E30E3100BB04CB /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 86C3661122E30E3100BB04CB /* weibo_0.json */; };
+		86C3663722E30E3100BB04CB /* M80FeedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3661322E30E3100BB04CB /* M80FeedImageViewController.m */; };
+		86C3663822E30E3100BB04CB /* M80FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3661422E30E3100BB04CB /* M80FeedViewController.m */; };
+		86C3663922E30E3100BB04CB /* M80WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3661622E30E3100BB04CB /* M80WebViewController.m */; };
+		86C3663A22E30E3100BB04CB /* M80TextCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3661A22E30E3100BB04CB /* M80TextCellComponent.m */; };
+		86C3663B22E30E3100BB04CB /* M80TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3661B22E30E3100BB04CB /* M80TextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AF75B828C19E5DE5EE49F12 /* Pods-M80TableViewComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M80TableViewComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-M80TableViewComponent_Example/Pods-M80TableViewComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* M80TableViewComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M80TableViewComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* M80TableViewComponent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M80TableViewComponent-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* M80TableViewComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M80TableViewComponent-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* M80AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M80AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* M80AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M80AppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* M80ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M80ViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* M80ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M80ViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61D2EEEC21AD07626D1632C0 /* Pods_M80TableViewComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M80TableViewComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C365E522E30E3100BB04CB /* M80ListDiffCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80ListDiffCellComponent.h; sourceTree = "<group>"; };
+		86C365E622E30E3100BB04CB /* M80ListDiffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80ListDiffViewController.h; sourceTree = "<group>"; };
+		86C365E722E30E3100BB04CB /* M80ListDiffCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80ListDiffCellComponent.m; sourceTree = "<group>"; };
+		86C365E822E30E3100BB04CB /* M80ListDiffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80ListDiffViewController.m; sourceTree = "<group>"; };
+		86C365EB22E30E3100BB04CB /* M80FeedSectionComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedSectionComponent.m; sourceTree = "<group>"; };
+		86C365EC22E30E3100BB04CB /* M80FeedAvatarCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedAvatarCellComponent.m; sourceTree = "<group>"; };
+		86C365ED22E30E3100BB04CB /* M80FeedPaddingCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedPaddingCellComponent.m; sourceTree = "<group>"; };
+		86C365EE22E30E3100BB04CB /* M80FeedTextCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedTextCellComponent.h; sourceTree = "<group>"; };
+		86C365EF22E30E3100BB04CB /* M80FeedImageCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedImageCellComponent.h; sourceTree = "<group>"; };
+		86C365F022E30E3100BB04CB /* M80FeedBaseCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedBaseCellComponent.m; sourceTree = "<group>"; };
+		86C365F122E30E3100BB04CB /* M80FeedToolbarCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedToolbarCellComponent.m; sourceTree = "<group>"; };
+		86C365F222E30E3100BB04CB /* M80FeedPaddingCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedPaddingCellComponent.h; sourceTree = "<group>"; };
+		86C365F322E30E3100BB04CB /* M80FeedAvatarCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedAvatarCellComponent.h; sourceTree = "<group>"; };
+		86C365F422E30E3100BB04CB /* M80FeedSectionComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedSectionComponent.h; sourceTree = "<group>"; };
+		86C365F522E30E3100BB04CB /* M80FeedImageCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedImageCellComponent.m; sourceTree = "<group>"; };
+		86C365F622E30E3100BB04CB /* M80FeedTextCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedTextCellComponent.m; sourceTree = "<group>"; };
+		86C365F722E30E3100BB04CB /* M80FeedToolbarCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedToolbarCellComponent.h; sourceTree = "<group>"; };
+		86C365F822E30E3100BB04CB /* M80FeedBaseCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedBaseCellComponent.h; sourceTree = "<group>"; };
+		86C365FA22E30E3100BB04CB /* M80FeedImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedImageCell.m; sourceTree = "<group>"; };
+		86C365FB22E30E3100BB04CB /* M80FeedAvatarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = M80FeedAvatarCell.xib; sourceTree = "<group>"; };
+		86C365FC22E30E3100BB04CB /* M80FeedToolbarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedToolbarViewCell.h; sourceTree = "<group>"; };
+		86C365FD22E30E3100BB04CB /* M80FeedTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedTextCell.h; sourceTree = "<group>"; };
+		86C365FE22E30E3100BB04CB /* M80FeedAvatarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedAvatarCell.m; sourceTree = "<group>"; };
+		86C365FF22E30E3100BB04CB /* M80FeedImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedImageCell.h; sourceTree = "<group>"; };
+		86C3660022E30E3100BB04CB /* M80FeedToolbarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedToolbarViewCell.m; sourceTree = "<group>"; };
+		86C3660122E30E3100BB04CB /* M80FeedToolbarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = M80FeedToolbarViewCell.xib; sourceTree = "<group>"; };
+		86C3660222E30E3100BB04CB /* M80FeedAvatarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedAvatarCell.h; sourceTree = "<group>"; };
+		86C3660322E30E3100BB04CB /* M80FeedTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedTextCell.m; sourceTree = "<group>"; };
+		86C3660522E30E3100BB04CB /* M80Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80Feed.m; sourceTree = "<group>"; };
+		86C3660622E30E3100BB04CB /* M80FeedMocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedMocker.m; sourceTree = "<group>"; };
+		86C3660722E30E3100BB04CB /* M80Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80Feed.h; sourceTree = "<group>"; };
+		86C3660822E30E3100BB04CB /* M80FeedMocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedMocker.h; sourceTree = "<group>"; };
+		86C3660A22E30E3100BB04CB /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
+		86C3660B22E30E3100BB04CB /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
+		86C3660C22E30E3100BB04CB /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
+		86C3660D22E30E3100BB04CB /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
+		86C3660E22E30E3100BB04CB /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
+		86C3660F22E30E3100BB04CB /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
+		86C3661022E30E3100BB04CB /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
+		86C3661122E30E3100BB04CB /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
+		86C3661322E30E3100BB04CB /* M80FeedImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedImageViewController.m; sourceTree = "<group>"; };
+		86C3661422E30E3100BB04CB /* M80FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80FeedViewController.m; sourceTree = "<group>"; };
+		86C3661522E30E3100BB04CB /* M80WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80WebViewController.h; sourceTree = "<group>"; };
+		86C3661622E30E3100BB04CB /* M80WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80WebViewController.m; sourceTree = "<group>"; };
+		86C3661722E30E3100BB04CB /* M80FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedViewController.h; sourceTree = "<group>"; };
+		86C3661822E30E3100BB04CB /* M80FeedImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80FeedImageViewController.h; sourceTree = "<group>"; };
+		86C3661A22E30E3100BB04CB /* M80TextCellComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80TextCellComponent.m; sourceTree = "<group>"; };
+		86C3661B22E30E3100BB04CB /* M80TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M80TextViewController.m; sourceTree = "<group>"; };
+		86C3661C22E30E3100BB04CB /* M80TextCellComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80TextCellComponent.h; sourceTree = "<group>"; };
+		86C3661D22E30E3100BB04CB /* M80TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M80TextViewController.h; sourceTree = "<group>"; };
+		87233E91C3B55E6130805283 /* Pods_M80TableViewComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M80TableViewComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB4AB4AC804B3EBBFD63C07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA21D7B8C9B9E63A0F83F908 /* Pods-M80TableViewComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M80TableViewComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-M80TableViewComponent_Example/Pods-M80TableViewComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BAF3D4999E556C18F65EBD04 /* Pods-M80TableViewComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M80TableViewComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-M80TableViewComponent_Tests/Pods-M80TableViewComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E2D2E10EEC3E72245202BCA1 /* M80TableViewComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = M80TableViewComponent.podspec; path = ../M80TableViewComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E76B67B96325B20C8813599C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED5819311BF8ABE075E24319 /* Pods-M80TableViewComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M80TableViewComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-M80TableViewComponent_Tests/Pods-M80TableViewComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				36201946B5A1347157570D94 /* Pods_M80TableViewComponent_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for M80TableViewComponent */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				9B7688DCA5C3D519B7B8A642 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* M80TableViewComponent_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				87233E91C3B55E6130805283 /* Pods_M80TableViewComponent_Example.framework */,
+				61D2EEEC21AD07626D1632C0 /* Pods_M80TableViewComponent_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for M80TableViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				86C365E322E30E3100BB04CB /* Classes */,
+				6003F59C195388D20070C39A /* M80AppDelegate.h */,
+				6003F59D195388D20070C39A /* M80AppDelegate.m */,
+				6003F5A5195388D20070C39A /* M80ViewController.h */,
+				6003F5A6195388D20070C39A /* M80ViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for M80TableViewComponent";
+			path = M80TableViewComponent;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* M80TableViewComponent-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* M80TableViewComponent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				E2D2E10EEC3E72245202BCA1 /* M80TableViewComponent.podspec */,
+				E76B67B96325B20C8813599C /* README.md */,
+				8DB4AB4AC804B3EBBFD63C07 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		86C365E322E30E3100BB04CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86C365E422E30E3100BB04CB /* ListDiff */,
+				86C365E922E30E3100BB04CB /* Feed */,
+				86C3661922E30E3100BB04CB /* Text */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		86C365E422E30E3100BB04CB /* ListDiff */ = {
+			isa = PBXGroup;
+			children = (
+				86C365E522E30E3100BB04CB /* M80ListDiffCellComponent.h */,
+				86C365E722E30E3100BB04CB /* M80ListDiffCellComponent.m */,
+				86C365E622E30E3100BB04CB /* M80ListDiffViewController.h */,
+				86C365E822E30E3100BB04CB /* M80ListDiffViewController.m */,
+			);
+			path = ListDiff;
+			sourceTree = "<group>";
+		};
+		86C365E922E30E3100BB04CB /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				86C365EA22E30E3100BB04CB /* Component */,
+				86C365F922E30E3100BB04CB /* Cell */,
+				86C3660422E30E3100BB04CB /* Model */,
+				86C3660922E30E3100BB04CB /* APIDump */,
+				86C3661222E30E3100BB04CB /* ViewController */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		86C365EA22E30E3100BB04CB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				86C365F822E30E3100BB04CB /* M80FeedBaseCellComponent.h */,
+				86C365F022E30E3100BB04CB /* M80FeedBaseCellComponent.m */,
+				86C365F422E30E3100BB04CB /* M80FeedSectionComponent.h */,
+				86C365EB22E30E3100BB04CB /* M80FeedSectionComponent.m */,
+				86C365F322E30E3100BB04CB /* M80FeedAvatarCellComponent.h */,
+				86C365EC22E30E3100BB04CB /* M80FeedAvatarCellComponent.m */,
+				86C365EF22E30E3100BB04CB /* M80FeedImageCellComponent.h */,
+				86C365F522E30E3100BB04CB /* M80FeedImageCellComponent.m */,
+				86C365F722E30E3100BB04CB /* M80FeedToolbarCellComponent.h */,
+				86C365F122E30E3100BB04CB /* M80FeedToolbarCellComponent.m */,
+				86C365F222E30E3100BB04CB /* M80FeedPaddingCellComponent.h */,
+				86C365ED22E30E3100BB04CB /* M80FeedPaddingCellComponent.m */,
+				86C365EE22E30E3100BB04CB /* M80FeedTextCellComponent.h */,
+				86C365F622E30E3100BB04CB /* M80FeedTextCellComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		86C365F922E30E3100BB04CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				86C365FF22E30E3100BB04CB /* M80FeedImageCell.h */,
+				86C365FA22E30E3100BB04CB /* M80FeedImageCell.m */,
+				86C365FD22E30E3100BB04CB /* M80FeedTextCell.h */,
+				86C3660322E30E3100BB04CB /* M80FeedTextCell.m */,
+				86C3660222E30E3100BB04CB /* M80FeedAvatarCell.h */,
+				86C365FE22E30E3100BB04CB /* M80FeedAvatarCell.m */,
+				86C365FB22E30E3100BB04CB /* M80FeedAvatarCell.xib */,
+				86C365FC22E30E3100BB04CB /* M80FeedToolbarViewCell.h */,
+				86C3660022E30E3100BB04CB /* M80FeedToolbarViewCell.m */,
+				86C3660122E30E3100BB04CB /* M80FeedToolbarViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		86C3660422E30E3100BB04CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86C3660722E30E3100BB04CB /* M80Feed.h */,
+				86C3660522E30E3100BB04CB /* M80Feed.m */,
+				86C3660822E30E3100BB04CB /* M80FeedMocker.h */,
+				86C3660622E30E3100BB04CB /* M80FeedMocker.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86C3660922E30E3100BB04CB /* APIDump */ = {
+			isa = PBXGroup;
+			children = (
+				86C3661122E30E3100BB04CB /* weibo_0.json */,
+				86C3661022E30E3100BB04CB /* weibo_1.json */,
+				86C3660B22E30E3100BB04CB /* weibo_2.json */,
+				86C3660A22E30E3100BB04CB /* weibo_3.json */,
+				86C3660D22E30E3100BB04CB /* weibo_4.json */,
+				86C3660C22E30E3100BB04CB /* weibo_5.json */,
+				86C3660F22E30E3100BB04CB /* weibo_6.json */,
+				86C3660E22E30E3100BB04CB /* weibo_7.json */,
+			);
+			path = APIDump;
+			sourceTree = "<group>";
+		};
+		86C3661222E30E3100BB04CB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86C3661522E30E3100BB04CB /* M80WebViewController.h */,
+				86C3661622E30E3100BB04CB /* M80WebViewController.m */,
+				86C3661722E30E3100BB04CB /* M80FeedViewController.h */,
+				86C3661422E30E3100BB04CB /* M80FeedViewController.m */,
+				86C3661822E30E3100BB04CB /* M80FeedImageViewController.h */,
+				86C3661322E30E3100BB04CB /* M80FeedImageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		86C3661922E30E3100BB04CB /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				86C3661C22E30E3100BB04CB /* M80TextCellComponent.h */,
+				86C3661A22E30E3100BB04CB /* M80TextCellComponent.m */,
+				86C3661D22E30E3100BB04CB /* M80TextViewController.h */,
+				86C3661B22E30E3100BB04CB /* M80TextViewController.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		9B7688DCA5C3D519B7B8A642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AF75B828C19E5DE5EE49F12 /* Pods-M80TableViewComponent_Example.debug.xcconfig */,
+				BA21D7B8C9B9E63A0F83F908 /* Pods-M80TableViewComponent_Example.release.xcconfig */,
+				ED5819311BF8ABE075E24319 /* Pods-M80TableViewComponent_Tests.debug.xcconfig */,
+				BAF3D4999E556C18F65EBD04 /* Pods-M80TableViewComponent_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* M80TableViewComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "M80TableViewComponent_Example" */;
+			buildPhases = (
+				0245F322235E496F8AE60B25 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				2E4B84AD3E24197C6024536C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M80TableViewComponent_Example;
+			productName = M80TableViewComponent;
+			productReference = 6003F58A195388D20070C39A /* M80TableViewComponent_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = M80;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = amao;
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "M80TableViewComponent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* M80TableViewComponent_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3662B22E30E3100BB04CB /* M80FeedToolbarViewCell.xib in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				86C3663522E30E3100BB04CB /* weibo_1.json in Resources */,
+				86C3663022E30E3100BB04CB /* weibo_2.json in Resources */,
+				86C3663322E30E3100BB04CB /* weibo_7.json in Resources */,
+				86C3662F22E30E3100BB04CB /* weibo_3.json in Resources */,
+				86C3663622E30E3100BB04CB /* weibo_0.json in Resources */,
+				86C3663222E30E3100BB04CB /* weibo_4.json in Resources */,
+				86C3663422E30E3100BB04CB /* weibo_6.json in Resources */,
+				86C3662822E30E3100BB04CB /* M80FeedAvatarCell.xib in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				86C3663122E30E3100BB04CB /* weibo_5.json in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0245F322235E496F8AE60B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M80TableViewComponent_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4B84AD3E24197C6024536C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M80TableViewComponent_Example/Pods-M80TableViewComponent_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/M80TableViewComponent/M80TableViewComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M80TableViewComponent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M80TableViewComponent_Example/Pods-M80TableViewComponent_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3663A22E30E3100BB04CB /* M80TextCellComponent.m in Sources */,
+				86C3662D22E30E3100BB04CB /* M80Feed.m in Sources */,
+				6003F59E195388D20070C39A /* M80AppDelegate.m in Sources */,
+				86C3663822E30E3100BB04CB /* M80FeedViewController.m in Sources */,
+				86C3662022E30E3100BB04CB /* M80FeedSectionComponent.m in Sources */,
+				86C3661F22E30E3100BB04CB /* M80ListDiffViewController.m in Sources */,
+				86C3663922E30E3100BB04CB /* M80WebViewController.m in Sources */,
+				86C3663B22E30E3100BB04CB /* M80TextViewController.m in Sources */,
+				86C3662422E30E3100BB04CB /* M80FeedToolbarCellComponent.m in Sources */,
+				86C3662922E30E3100BB04CB /* M80FeedAvatarCell.m in Sources */,
+				86C3662222E30E3100BB04CB /* M80FeedPaddingCellComponent.m in Sources */,
+				6003F5A7195388D20070C39A /* M80ViewController.m in Sources */,
+				86C3662622E30E3100BB04CB /* M80FeedTextCellComponent.m in Sources */,
+				86C3661E22E30E3100BB04CB /* M80ListDiffCellComponent.m in Sources */,
+				86C3662322E30E3100BB04CB /* M80FeedBaseCellComponent.m in Sources */,
+				86C3662C22E30E3100BB04CB /* M80FeedTextCell.m in Sources */,
+				86C3662522E30E3100BB04CB /* M80FeedImageCellComponent.m in Sources */,
+				86C3662122E30E3100BB04CB /* M80FeedAvatarCellComponent.m in Sources */,
+				86C3662722E30E3100BB04CB /* M80FeedImageCell.m in Sources */,
+				86C3663722E30E3100BB04CB /* M80FeedImageViewController.m in Sources */,
+				86C3662A22E30E3100BB04CB /* M80FeedToolbarViewCell.m in Sources */,
+				86C3662E22E30E3100BB04CB /* M80FeedMocker.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF75B828C19E5DE5EE49F12 /* Pods-M80TableViewComponent_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M80TableViewComponent/M80TableViewComponent-Prefix.pch";
+				INFOPLIST_FILE = "M80TableViewComponent/M80TableViewComponent-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA21D7B8C9B9E63A0F83F908 /* Pods-M80TableViewComponent_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M80TableViewComponent/M80TableViewComponent-Prefix.pch";
+				INFOPLIST_FILE = "M80TableViewComponent/M80TableViewComponent-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "M80TableViewComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "M80TableViewComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

@@ -1,26 +1,26 @@
 # M80TableViewComponent
 
-A component-based framework for UITableView  [中文版本](./Documents/README.md)
+UITableView 的组件化解决方案 [英文版本](./../README.md)
 
-|         | Main Features  |
+|         | 主要特性  |
 ----------|-----------------
-🙅 | No more indexpath and array out of range
-👋 | Segregation of duties
-😁 | UITableViewCell will be automatically reusable
-🏡 | Data-driven
-✅ | Safe model to view mapping
-➡️ | One way binding
-📥 | Easy to compose different components together
-🚀 | Simple support for height cache and precalculate
-🔑 | ListDiff supported
+🙅 | 不用再和 IndexPath 及数组越界打交道
+👋 | 权责分离，和冗长的 UITableView Adapter 说再见
+😁 | UITableViewCell 自动重用
+🏡 | 数据驱动的构建方式
+✅ | 安全的模型视图映射关系
+➡️ | 单向绑定
+📥 | 灵活组装
+🚀 | 自动高度缓存和简单的高度预计算支持
+🔑 | 支持 ListDiff
 
 
-# System Requirements
+# 系统要求
 
-* iOS 9.0 or higher
-* Xcode 11.0 or higher
+* iOS 9.0 及以上
+* Xcode 11.0
 
-# Installation
+# 集成
 
 ### Cocoapods
 
@@ -29,9 +29,9 @@ pod 'M80TableViewComponent'
 ```
 
 
-# QuickStart
+# 快速使用
 
-### Define custom component
+### 定义 cell component
 
 ```objc
 @implementation M80ItemComponent
@@ -55,7 +55,7 @@ pod 'M80TableViewComponent'
 
 ```
 
-### Compose them
+### 组装使用
 
 ```objc
 
@@ -81,14 +81,14 @@ pod 'M80TableViewComponent'
 
 
 
-# Key Classes
-|   Class      | Usage |
+# 主要类预览
+|   类      | 概述 |
 ----------|-----------------
-M80TableViewComponent | TableView component which holds many section components
-M80TableViewSectionComponent | Section component which holds many cell components
-M80TableViewCellComponent | Cell component which is used for managing UITableViewCell  
-M80TableViewViewComponent | View componnet
-M80TableViewComponentContext | Class which holds the context information for the tableview component
+M80TableViewComponent | TableView 组件，持有多个 M80TableViewSectionComponent
+M80TableViewSectionComponent | Section 组件，持有多个 M80TableViewCellComponent 
+M80TableViewCellComponent | Cell 组件，与 UITableViewCell 一一对应
+M80TableViewViewComponent | View 组件
+M80TableViewComponentContext | TableView 组件上下文信息
 
 
 

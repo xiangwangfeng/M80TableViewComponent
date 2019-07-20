@@ -1,6 +1,6 @@
 # M80TableViewComponent
 
-A component-based framework for UITableView  [中文版本](./Documents/README.md)
+A component-based library for UITableView  [中文版本](./Documents/README.md)
 
 |         | Main Features  |
 ----------|-----------------

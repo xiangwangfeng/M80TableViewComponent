@@ -1,6 +1,6 @@
 # M80TableViewComponent
 
-UITableView 的组件化解决方案 [英文版本](./../README.md)
+UITableView 的组件化解决方案 [English Version](./../README.md)
 
 |         | 主要特性  |
 ----------|-----------------
@@ -89,6 +89,9 @@ M80TableViewSectionComponent | Section 组件，持有多个 M80TableViewCellCom
 M80TableViewCellComponent | Cell 组件，与 UITableViewCell 一一对应
 M80TableViewViewComponent | View 组件
 M80TableViewComponentContext | TableView 组件上下文信息
+
+# 更多介绍
+[UITableView 组件化](https://xiangwangfeng.com/2019/07/20/UITableView-%E7%BB%84%E4%BB%B6%E5%8C%96/)
 
 
 
